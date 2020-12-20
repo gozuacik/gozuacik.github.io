@@ -1,7 +1,7 @@
 Hello, I am a webpage!
 
-# This is a header
-## This is a subheader
+# PhD Notes
+## Personal
 
 I can make un-ordered list
 * first bullet
