@@ -1,5 +1,5 @@
-This webpage consists of my notes and blogs.
+This webpage consists of my notes for my PhD study.
 
-# PhD Notes
-## Personal
+# PhD Diary/Notes
+
 
