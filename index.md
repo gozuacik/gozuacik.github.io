@@ -1,4 +1,4 @@
-Bu web sayfasında Doktora çalışmam ile ilgili bir günlük niteliği taşıyan bilgiler yer almaktadır.
+Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler/notlar yer almaktadır.
 
 # Doktora Günlüğü
 ## 24.12.2020
