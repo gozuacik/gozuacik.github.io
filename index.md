@@ -10,8 +10,8 @@ Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler
 > aylarda memory (bellek) hatası aldım.
 ## 20.12.2020
 > Bahçeşehir Üniversitesi Bilgisayar Mühendisliği bölümünde 2017 Güz döneminde
-> Doktora programına başladım. Doktora çalışma alanım Artificial Intelligence
-> (AI - Yapay Zeka). Daha çok Natural Language Processing (NLP - Doğal Dil İşleme)
-> ve Deep Learning (DL - Derin Öğrenme) konuları ile ilgilenmekteyim.
+> Doktora programına başladım. Doktora çalışma alanım **Artificial Intelligence**
+> (AI - Yapay Zeka). Daha çok **Natural Language Processing** (NLP - Doğal Dil İşleme)
+> ve **Deep Learning** (DL - Derin Öğrenme) konuları ile ilgilenmekteyim.
 > Tez Danışmanım: [Dr. Öğr. Üyesi C. Okan Şakar](https://akademik.bahcesehir.edu.tr/web/cemalokansakar/tr/index.html)
 
