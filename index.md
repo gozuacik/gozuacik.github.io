@@ -6,7 +6,9 @@ Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler
 >Python kodlarımı denedim. İlgilendiğim veri seti **1991 - 2020** yılları aralığında ay bazlı
 >toplanmıştır. Ay bazlı **Co-Occurence** kelime matrisi ile **LSTM (Long Short-Term Memory)** 
 >modeli denemeye çalışıyorum. Kelime matrsinin boyutu **(4064,4064)**. Bu boyutta bir matristen 
->ay bazlı train (eğitim) seti oluşturmaya çalışırken 1994 yılındaki
+>ay bazlı train (eğitim) seti oluşturmaya çalışırken 1994 yılındaki oluşturmaya çalışırken 1994 
+>yılındaki aylarda memory (bellek) hatası aldım.
+
 
 ## 20.12.2020
 >Bahçeşehir Üniversitesi Bilgisayar Mühendisliği bölümünde 2017 Güz döneminde
