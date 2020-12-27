@@ -1,6 +1,14 @@
 Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler/notlar yer almaktadır.
 
 # Doktora Günlüğü
+## 27.12.2020
+> (4064,4064) boyutu ile ilgili bellek hatası almaya devam ediyorum. Bir yandan da **Heatmap** 
+> üretmek ile ilgili denemeler yaptım. Python **Seaborn** kütüphanesi ile (100,100) boyutundaki 
+> bir fügür üzerinde (4064,4064) boyutlu diziyi resmedebildim. Ama birkaç ay sonrası için
+> bellek hatası almaya yine devam ettim. Bu durumu aşmak için lokal numpy ya da pandas 
+> değişkenlerini del komutu ile kod içerisinde sildim ama maalesef bir etkisi olmadı.
+> Bellek ihtiyacının neden giderek arttığını anlamaya çalışıyorum.
+
 ## 24.12.2020
 > [Google Colab](https://colab.research.google.com/) ortamında doktora çalışmam ile ilgili 
 > Python kodlarımı denedim. İlgilendiğim veri seti **1991 - 2020** yılları aralığında ay bazlı
@@ -22,8 +30,14 @@ Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler
 
 ## 2018
 > Aşağıdaki dersleri tamamladım.
-> * TBD
+> * Image and Video Processing
+> * Statistical Data Analysis and Decision Making
+> * Software Design Patterns
+> * Artificial Neural Network
 
 ## 2017
 > Aşağıdaki dersleri tamamladım.
-> * TBD
+> * Analysis of Algorithms
+> * Machine Learning & Pattern Recognition
+> * Advanced Topics in AI
+> * Computer Networks and Mobile Computing
