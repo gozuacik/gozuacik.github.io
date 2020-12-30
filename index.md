@@ -1,6 +1,15 @@
 Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler/notlar yer almaktadır.
 
 # Doktora Günlüğü
+## 30.12.2020
+> [UHEM] (https://portal.uhem.itu.edu.tr/index.php) tarafından onaylanan başvuru için 
+> kurulum ve basit denemeleri yaptım. [Wiki UHEM] (http://wiki.uhem.itu.edu.tr/w/index.php/Ana_Sayfa)  
+> sayfası üzerinden yönergeleri izledim. Önce **Open VPN** kurulumu yapıp UHEM sunucusuna bağlandım.
+> Sonra **Putty** üzerinden **SSH** ile sunucuya bağlandım ve home dizinimin verilmiş olduğunu
+> doğruladım. Grafik arayüz olarak **X2Go Client** ile de sunucuya bağlanabiliyor. **WinSCP**
+> ile **FTP/SFTP** bağlantısı da başarılı oldu. Bilgisayar ve İşlemci kapasitesi oldukça
+> yüksek gözüküyor. RAM kapasitesi de yine yüksek. 
+
 ## 28.12.2020
 > Okan Hoca ve Sercan Hoca ile toplantı yaptık. Co-Occurence matris boyutunun dezavantajından 
 > kurtulabilmek için neler yapabiliriz onları konuştuk. Co-Occurence matris yerine **Word2Vec** 
