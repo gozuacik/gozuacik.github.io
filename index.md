@@ -1,6 +1,14 @@
 Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler/notlar yer almaktadır.
 
 # Doktora Günlüğü
+## 01.01.2021
+> Co-Occurence matris yerine denemeye karar verdiğimiz **Word2Vec** temsili için
+> inceleme ve araştırmalar yaptım. Gördüğüm kadarı ile **CountVectorizer** ya da **TF-IDF**  
+> gibi bir **vocabulary** üzerinden temsil inşa etme şansı yok gibi. Ayrıca direkt olarak
+> **BiGram** ve **TriGram** seçenekleri de yok. Bunun yerine **Phraser/Phrases** yapıları üzerinden
+> çoklu yapılar oluşturuluyor gözükmekte. Elimizdeki büyük veri için Word2Vec temsili
+> başarılı olarak oluşturulabilecek mi deneyeceğim.
+
 ## 30.12.2020
 > [UHEM](https://portal.uhem.itu.edu.tr/index.php) tarafından onaylanan başvuru için 
 > kurulum ve basit denemeleri yaptım. [Wiki UHEM](http://wiki.uhem.itu.edu.tr/w/index.php/Ana_Sayfa)  
