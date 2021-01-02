@@ -55,7 +55,7 @@ Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler
 > (AI - Yapay Zeka). Daha çok **Natural Language Processing** (NLP - Doğal Dil İşleme)
 > ve **Deep Learning** (DL - Derin Öğrenme) konuları ile ilgilenmekteyim.
 > Tez Danışmanım: [Dr. Öğr. Üyesi C. Okan Şakar](https://akademik.bahcesehir.edu.tr/web/cemalokansakar/tr/index.html)
-> Tez ile ilgili uğraştığımız alanlarda bize destek veren diğer hocam: [Dr. Öğr. Üyesi Sercan Özcan] (https://www.port.ac.uk/about-us/structure-and-governance/our-people/our-staff/sercan-ozcan)
+> Tez ile ilgili uğraştığımız alanlarda bize destek veren diğer hocam: [Dr. Öğr. Üyesi Sercan Özcan](https://www.port.ac.uk/about-us/structure-and-governance/our-people/our-staff/sercan-ozcan)
 
 ## 2019
 > Tez 1 (Tez Önerisi) dersi tamamlandı.
