@@ -1,6 +1,17 @@
 Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler/notlar yer almaktadır.
 
 # Doktora Günlüğü
+## 04.01.2021
+> Tez Jürisine hazırlanan **İlermeme Raporu** gönderildi. Word2Vec temsili için kendi Vocabulary
+> setimiz nasıl dahil olabilir onu araştırmaya devam ediyorum.
+
+## 03.01.2021
+> Elimizdeki büyük veri için ay bazlı **Word2Vec** temsili yapmaya çalıştım. Model kaydedilip
+> her ay için güncellenerek devam ediyor. İlk yıl - 12 ay için bu denemeyi yaptım. **Vocabulary**
+> beklendiği gibi her ay sonrasında artıyor. Şu an buradaki tek sıkıntı **Bag of Words/CountVectorizer**
+> ile daha önceden oluşturduğumuz **4064** kelimelik set ile nasıl bir ilişki kuracağımız.
+> **Phrases/Phraser** yapısı ile **stop word** elemeleri **Bigram** ve **Trigram** yapılarını etkiliyor gözükmekte.
+
 ## 01.01.2021
 > Co-Occurence matris yerine denemeye karar verdiğimiz **Word2Vec** temsili için
 > inceleme ve araştırmalar yaptım. Gördüğüm kadarı ile **CountVectorizer** ya da **TF-IDF**  
