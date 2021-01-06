@@ -1,6 +1,19 @@
 Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler/notlar yer almaktadır.
 
 # Doktora Günlüğü
+## 05.01.2021
+> Word2Vec çalışması ile ilgili **tavsiye** almak için hocalara mail attım.
+> **Stop Word** işleminin daha sonradan uygulanabileceğini söylediler.
+> 1991 - 2017 arasında **ay** bazlı WordVec modeli oluşturmaya başladım.
+> Google Colab üzerinde devam eden çalışma **12 saat** sonrasında
+> **2009** yılını işlemeye devam ederken sistem tarafından durduruldu.
+> Büyük ihtimalle Google Colab hizmetinin gün içerisinde izin
+> verilen **ücretsiz kullanım limiti** aşıldı. Bir sonraki gerçek denemede
+> **10'ar** yıllık periyotlar halinde yapılması sanırım daha iyi olacak.
+> Danışman hocam ayrıca **convolution layera sahip bir sinir ağıyla
+> gözetimli öğrenme modeli** kurulması ile ilgili çalışmalara bakmamı istedi.
+> Bir yandan da **Literatür** taraması yapmak gerekecek.
+
 ## 04.01.2021
 > Tez Jürisine hazırlanan **İlermeme Raporu** gönderildi. Word2Vec temsili için kendi Vocabulary
 > setimiz nasıl dahil olabilir onu araştırmaya devam ediyorum.
