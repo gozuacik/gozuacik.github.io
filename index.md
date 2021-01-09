@@ -1,6 +1,22 @@
 Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler/notlar yer almaktadır.
 
 # Doktora Günlüğü
+## 09.01.2021
+> Word2Vec ile ilgili Vocabulary oluşturma çalışmalarının **üçüncü**
+> parçası da tamamlanmış oldu. Öte yandan **Expert Systems with Applications**  
+> dergisine gönderdiğimiz makale için **revision** isteği geldi. Makale
+> genel anlamda **beğenilmiş** gözükmekte. Review eden hakemlerin
+> yorumlarına göre makaleyi geliştirip **6 Şubat** tarihine kadar göndermek
+> gerekiyor.
+
+## 07.01.2021
+> Word2Vec ile ilgili Vocabulary oluşturma çalışmalarına başladım.
+> 1991 - 2017 yılları arasını **3 parça** olacak şekilde bölümledim. 
+> (1991 - 2000, 2001 - 2010, 2011 - 2017). İlk parça olan
+> **1991 - 2000** arasını tamamladım. Öte yandan **UHEM** ortamında
+> basit şekilde ilk **Python** denemesini yaptım bir **virtualenv**
+> düzenleyerek. Sunucuya iş verip çalıştırtabildim.
+
 ## 05.01.2021
 > Word2Vec çalışması ile ilgili **tavsiye** almak için hocalara mail attım.
 > **Stop Word** işleminin daha sonradan uygulanabileceğini söylediler.
