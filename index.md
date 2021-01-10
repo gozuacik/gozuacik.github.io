@@ -1,6 +1,13 @@
 Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler/notlar yer almaktadır.
 
 # Doktora Günlüğü
+## 10.01.2021
+> Dergiden gelen **hakem değerlendirmeleri** ile ilgili çalışmalara başladım.
+> İlk olarak istenen şeyleri madde halinde listelemeye çalıştım. Toplam
+>  **12 madde** yer almakta. **4 madde** için bir şeyler yaptım. **13 Ocak Çarşamba** 
+> günü ayrıca bu konuya dair Okan Hoca ve Sercan Hoca ile birlikte bir
+> toplantı yapacağız.
+
 ## 09.01.2021
 > Word2Vec ile ilgili Vocabulary oluşturma çalışmalarının **üçüncü**
 > parçası da tamamlanmış oldu. Öte yandan **Expert Systems with Applications**  
