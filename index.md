@@ -1,6 +1,11 @@
 Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler/notlar yer almaktadır.
 
 # Doktora Günlüğü (PhDiary)
+## 13.01.2021
+> Bugün dergiden gelen inceleme sonuçları ile ilgili
+> bir **toplantı** yaptık. Aksiyon planı çıkarıldı ve 
+> hızlı bir şekilde düzenleme yapılmasına karar verildi.
+
 ## 12.01.2021
 > Dergiden gelen hakem değerlendirmeleri içerisinde yer alan ve
 > tavsiye edilen **4 yayını** inceledim. Değerlendirmelerle ilgili
