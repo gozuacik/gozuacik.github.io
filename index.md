@@ -1,7 +1,7 @@
 Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler/notlar yer almaktadır.
 
 # Doktora Günlüğü (PhDiary)
-## 13.01.2021
+## 16.01.2021
 > Dergi ile ilgili aksiyonlar üzerinde çalışmanın yanı sıra
 > üzerinde çalıştığımız yeni konuya da devam ettim. İlk olarak
 > ay bazlı oluşturulan **Word2Vec** modellerini kayıt ettim.
