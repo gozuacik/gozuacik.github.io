@@ -2,6 +2,14 @@ Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler
 
 # Doktora Günlüğü (PhDiary)
 ## 13.01.2021
+> Dergi ile ilgili aksiyonlar üzerinde çalışmanın yanı sıra
+> üzerinde çalıştığımız yeni konuya da devam ettim. İlk olarak
+> ay bazlı oluşturulan **Word2Vec** modellerini kayıt ettim.
+> **Literatür** çalışması olarak da farklı **anahtar kelime**
+> kombinasyonları ile **Google Scholar** üzerinde
+> araştırmalar yaptım.
+
+## 13.01.2021
 > Bugün dergiden gelen inceleme sonuçları ile ilgili
 > bir **toplantı** yaptık. Aksiyon planı çıkarıldı ve 
 > hızlı bir şekilde düzenleme yapılmasına karar verildi.
