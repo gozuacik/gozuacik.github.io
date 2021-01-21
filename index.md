@@ -1,6 +1,12 @@
 Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler/notlar yer almaktadır.
 
 # Doktora Günlüğü (PhDiary)
+## 19.01.2021
+> Üzerinde çalıştığımız yeni konuya ilişkin elde ettiğim
+> **literatür** taramasına dair sonuçları hocalarımla paylaştım.
+> **27 Ocak Çarşamba** günü gerçekleşecek **Tez-2 İlerleme** Jüri
+> toplantısı için **sunum** hazırlamaya başladım.
+
 ## 16.01.2021
 > Dergi ile ilgili aksiyonlar üzerinde çalışmanın yanı sıra
 > üzerinde çalıştığımız yeni konuya da devam ettim. İlk olarak
