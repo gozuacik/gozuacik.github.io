@@ -1,6 +1,11 @@
 Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler/notlar yer almaktadır.
 
 # Doktora Günlüğü (PhDiary)
+## 27.01.2021
+> Bugün **Tez-2** ilerleme sunumunu yaptım ve **başarılı** sonuçlandı.
+> Jüri üyelerinin genel izlenimi **olumlu** oldu. Tezin ikinci kısmı
+> ile ilgili çalışmalara son sürat devam edeceğim.
+
 ## 19.01.2021
 > Üzerinde çalıştığımız yeni konuya ilişkin elde ettiğim
 > **literatür** taramasına dair sonuçları hocalarımla paylaştım.
