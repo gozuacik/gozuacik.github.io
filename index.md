@@ -1,6 +1,10 @@
 Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler/notlar yer almaktadır.
 
 # Doktora Günlüğü (PhDiary)
+## 02.02.2021
+> Devam edilen proje ile ilgili **Feature Map** oluşturma ve **LSTM**
+> uygulanması ile ilgili kod geliştirmesi yapıldı.
+
 ## 27.01.2021
 > Bugün **Tez-2** ilerleme sunumunu yaptım ve **başarılı** sonuçlandı.
 > Jüri üyelerinin genel izlenimi **olumlu** oldu. Tezin ikinci kısmı
