@@ -1,6 +1,27 @@
 Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler/notlar yer almaktadır.
 
 # Doktora Günlüğü (PhDiary)
+## 20.02.2021
+> Okan Hoca ve Sercan hoca makale ile ilgili içeriğin
+> yeni halini tamamladılar. Makalenin son hali üzerinden
+> **inceleme** yapıldı, **referanslar** kontrol edildi. Bir referans
+> ile ilgili **Bibtex** olarak **Article** şablonu uygun olmuyordu
+> **Volume** ve **Page** bilgileri olmadığı için. **Misc** şablonu
+> kullanılarak sorun giderildi. Makalenin gönderileceği
+> **Elsevier** arayüzünde **Orcid ID** ile ilişkilendirme sırasında
+> sistemsel bir **hata** ile karşılaşıldı. Makale Dergi Editörüne
+> e-posta ile ulaştırıldı ve onlar tarafından sisteme kaydedildi.
+
+## 19.02.2021
+> Dergiden düzeltme için geri dönen makale ile ilgili
+> çalışmalara devam edildi. **Deep Neural Network** ile ilgili
+> şekillerde ufak düzeltmeler yapıldı. Litreatür taraması ile
+> ilgili bir **tablo** hazırlanması istenmişti. **Okan Hoca** ve **Sercan
+> Hoca'nın** oluşturduğu tablo **Latex** formatına dönüştürüldü. 
+> Yayındaki çalışmanın temel yapısını anlatan **figür** yeniden oluşturuldu. 
+> Son hali ile daha güzel bir anlatım sağlandı. Figür için 
+> [Diagrams - Draw.io](https://app.diagrams.net/) uygulaması kullanıldı.
+
 ## 02.02.2021
 > Devam edilen proje ile ilgili **Feature Map** oluşturma ve **LSTM**
 > uygulanması ile ilgili kod geliştirmesi yapıldı.
