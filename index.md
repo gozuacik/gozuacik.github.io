@@ -1,6 +1,26 @@
 Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler/notlar yer almaktadır.
 
 # Doktora Günlüğü (PhDiary)
+## 03.03.2021
+> Okan Hoca ve Sercan Hoca ile toplantı yaptık. Toplantı **verimli** geçti.
+> Literatür taraması ile ilgili sonuçlar üzerinde duruldu. Bizim konumuza
+> çok yakın bir çalışma gözükmemekte. Literatür taramasını biraz daha
+> **derin** incelemek gerekecek özellikle yöntemlerin kullanış şekli anlamında.
+> LSTM network ile ilgili tüm kelimeler yerine **ay** bazlı **yeni** dahil olan
+> kelimelerin **%5'i** seçilecektir. Yeni dahil olan kelimeler de **frekans**
+> sayılarına göre önce sıralanacaktır. **Pipeline** kurulduktan sonra
+> farklı, **state of art** kelime temsil yöntemleri de kullanılacaktır
+> **(BERT, FastText, XLNet, ELMo)**
+
+## 01.03.2021
+> Tezin ikinci kısmı ile lgili çalışmada LSTM network kurulumunu
+> **Word2Vec** sözlüğündeki her bir kelime bazında oluşturmayı düşündük.
+> **2017 Aralık** ayı sonunda eğitilmiş olan Word2Vec modelindeki
+> kelime seti baz alındı. Bu sözlükteki her kelime için **1991 - 2017**
+> seneleri arasında ay bazlı **(27 * 12 = 324 ay)** Word2Vec değerleri
+> kullanılarak eğitim seti oluşturuldu. Bu eğitim seti üzerinden de
+> her kelime için bir LSTM network kuruldu.
+
 ## 20.02.2021
 > Okan Hoca ve Sercan hoca makale ile ilgili içeriğin
 > yeni halini tamamladılar. Makalenin son hali üzerinden
