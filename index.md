@@ -1,6 +1,34 @@
 Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler/notlar yer almaktadır.
 
 # Doktora Günlüğü (PhDiary)
+## 21.03.2021
+> **2014 Aralık** ayından **2017 Aralık** ayına (hem Actual hem de Predicted için)
+> **benzerliği** en çok değişen kelimeleri bulma ile ilgili çalışmalar yaptım.
+
+## 19.03.2021
+> Modeldeki sıkıntıyı giderdim. **2014 Aralık** inputundan **2017 Aralık** outputunu
+> elde ettim. **Actual** ve **Predicted** Word2Vec vektörlerinden **pair-wise** olarak 
+> **Cosine Similarity** hesaplattım. Böylelikle elimizde **Co-Occurence** benzeri 
+> matrisler olmuş oldu. Bu matrisleri **Gephi** üzerinde görsellemeye çalıştım, 
+> henüz başaramadım.
+
+## 15.03.2021
+> Okan Hoca ile konuşurken LSTM modelinin yanlış kurulduğunu fark ettim.
+> Model eğitimi ve tahminleri tekrar yapmaya çalışacağım.  
+
+## 13.03.2021
+> **%5** stratejisi kullanıldığında **111** kelime belirlenmiş oldu. **LSTM modeli** üzerinden 
+> prediction yaptım. Ortalama **2 saat** civarı sürdü gibi. **2017 Aralık** için actual 
+> **Word2Vec** değerleri ve predict edilen Word2Vec değerlerini elde ettim. 
+> Görselleştirmeyi **(Gephi, Pajek vb.)** nasıl daha iyi yapabiliriz ona da bakmaya çalışıyorum.
+
+## 08.03.2021
+> **Pipeline** kurmak amaçlı **Vocabulary** oluşturma denemelerini tamamladım.
+> **1991 Ocak** ayından başlayarak her ay **yeni eklenen** kelime sayısının
+> **%5** kadarını Vocabulary içerisine dahil etme kararı aldık. Bu şekilde olunca
+> **bazı aylar** için hiç kelime eklenmediği oldu. Şimdilik pipeline kurmak 
+> amaçlı bu strateji ile ilerlemeye karar verdik.
+ 
 ## 03.03.2021
 > Okan Hoca ve Sercan Hoca ile toplantı yaptık. Toplantı **verimli** geçti.
 > Literatür taraması ile ilgili sonuçlar üzerinde duruldu. Bizim konumuza
