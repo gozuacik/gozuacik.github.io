@@ -6,14 +6,14 @@ Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler
 > **Word2Vec** modelindeki benzer **parametre ayarlamaları** ile tamamlandı. **FastText** modelinde de
 > **2017 Aralık** sonunda kelime sayısı **5148** olarak hesaplandı. Bir sonraki adımda **LSTM**
 > eğitimleri ile devam edileek.
-> 
+ 
 ## 07.04.2021
 > **UHEM'deki** sunucu ortamı üzerinde **Centrality** hesaplamaları deneme amaçlı **1991 Ocak**
 > ayı için yapılmaya çalışıldı. Fakat sunucuda başlatılan proses yaklaşık **1 saat** sonra
 > sistem tarafından **TIMEOUT** gerekeçesiyle durduruldu. Bu konu ile ilgili **UHEM** tarafına
 > bir danışmak gerekecek. UHEM'deki sistemlerde **9 Nisan - 13 Nisan** arası bakım işlemleri
 > yapılacağından daha fazla kullanım şansı şimdilik olmadı.
->  
+ 
 ## 03.04.2021
 > **Centrality** hesaplamasının nasıl yapılacağı ile ilgili araştırmalar yapıldı.
 > Genellikle gördüğüm kadarı ile **Python'da** yer alan **networkx** paketi ile bir **Graf**
@@ -30,7 +30,7 @@ Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler
 > oluşturulabiliyor. Graf üzerinden de çeşitli **centrality** skorları
 > hesaplanbiliyor: **Degree Centrality, Betweenness Centrality, closeness centrality,
 > Eigenvector_centrality**
-> 
+
 ## 31.03.2021
 > Okan Hoca ve Sercan Hoca ile toplantı yaptık. Model çıktılarını daha güçlü ve iyi
 > yorumlayabilmek adına **Centrality** hesaplamalarının da modele dahil edilmesinin
@@ -43,7 +43,7 @@ Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler
 > oluşturulabilir dedik. İlk olarak **FastText** denemesi yapılacak.
 > **Deep Neural Network** açısından da **LSTM'in** yanısıra **CNN-LSTM**, **Attention Network**
 > denemeleri yapılabilir.
-> 
+
 ## 28.03.2021
 > LSTM modelinin kurulması, Cosine Similarity hesaplama gibi adımlar seçilen 111 kelime 
 > üzerinden test edilmiş oldu. Bundan sonraki aşamada Word2Vec modelin **2017 Aralık**
@@ -55,6 +55,7 @@ Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler
 > 
 > *13248378 çift içerisinden seçilen rastgele 1000 tanesinin en az 8 tanesinin en çok değişen 1000 çift arasında olma ihtimali nedir?*
 > **5.600025825700728e-14**
+
 ## 23.03.2021
 > **2014 Aralık** ile **2017 ARalık** (Actual vs. Predict) arasındaki **Cosine Similarity** 
 > değişimlerini incelemeye çalıştım. Değişimin en fazla olduğu **Top N** kelimeler içerisinde 
@@ -72,7 +73,7 @@ Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler
 > **Cosine Similarity** değerlerimiz negatif de olabiliyor. Sanırım bu hali ile **Gephi'de** 
 > görüntüleme sıkıntıya yol açabiliyor. Ben de örnek olarak değerleri **0-100** arasında 
 > scale ettim. Bu şekilde Actual ve Predict için Gephi grafikleri elde edilebiliyor.
-> 
+
 ## 21.03.2021
 > **2014 Aralık** ayından **2017 Aralık** ayına (hem Actual hem de Predicted için)
 > **benzerliği** en çok değişen kelimeleri bulma ile ilgili çalışmalar yaptım.
