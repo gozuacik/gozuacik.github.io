@@ -1,6 +1,78 @@
 Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler/notlar yer almaktadır.
 
 # Doktora Günlüğü (PhDiary)
+## 09.04.2021
+> **FastText** modeli ile **1991 Oca**k ile **2017 Aralık** ayları arasında model eğitimi
+> **Word2Vec** modelindeki benzer **parametre ayarlamaları** ile tamamlandı. **FastText** modelinde de
+> **2017 Aralık** sonunda kelime sayısı **5148** olarak hesaplandı. Bir sonraki adımda **LSTM**
+> eğitimleri ile devam edileek.
+> 
+## 07.04.2021
+> **UHEM'deki** sunucu ortamı üzerinde **Centrality** hesaplamaları deneme amaçlı **1991 Ocak**
+> ayı için yapılmaya çalışıldı. Fakat sunucuda başlatılan proses yaklaşık **1 saat** sonra
+> sistem tarafından **TIMEOUT** gerekeçesiyle durduruldu. Bu konu ile ilgili **UHEM** tarafına
+> bir danışmak gerekecek. UHEM'deki sistemlerde **9 Nisan - 13 Nisan** arası bakım işlemleri
+> yapılacağından daha fazla kullanım şansı şimdilik olmadı.
+>  
+## 03.04.2021
+> **Centrality** hesaplamasının nasıl yapılacağı ile ilgili araştırmalar yapıldı.
+> Genellikle gördüğüm kadarı ile **Python'da** yer alan **networkx** paketi ile bir **Graf**
+> üzerinden centrality hesaplamaları yapılmakta. Grafı oluşturmak için ise **Node**
+> ve **Edge** yapılarına ihtiyaç var. Bizim senaryomuzda **Node** yapısı **Word2Vec** modeli
+> ile belirlenen **kelimeler** oluyor. **Edge** yapısı ise kelimelerin birlikte ne kadar
+> bir arada geçtiğinin **(Co-Occurence)** sayısı olarak değerlendirilebilir.
+> 
+> Edge yapısını oluşturmak için Python'daki **Dictionary** yapısı kullanılarak 
+> kelime pairleri/çiftleri arasındaki birlikte ne kadar kullanıldığı sayısı
+> hesaplanabilir.
+> 
+> **Node** ve **Edge** bilgileri oluşturulduktan sonra **Graf** yapısı kolaylıkla
+> oluşturulabiliyor. Graf üzerinden de çeşitli **centrality** skorları
+> hesaplanbiliyor: **Degree Centrality, Betweenness Centrality, closeness centrality,
+> Eigenvector_centrality**
+> 
+## 31.03.2021
+> Okan Hoca ve Sercan Hoca ile toplantı yaptık. Model çıktılarını daha güçlü ve iyi
+> yorumlayabilmek adına **Centrality** hesaplamalarının da modele dahil edilmesinin
+> iyi olacağı düşünüldü. Centrality olarak farklı alternatifler yer almakta: 
+> **Degree Centrality, In Betweenness Centrality, Closedness Centrality**
+> **Ay bazlı** kelimelerle ilgili centrality skorları üzerinden bir LSTM model
+> üzerinden eğitim ve tahminler yapılabilir. Bu konuya bakılması gerekecek.
+> 
+> **Word2Vec** yönteminin yanında **FastText** ve **BERT** ile feature setler de
+> oluşturulabilir dedik. İlk olarak **FastText** denemesi yapılacak.
+> **Deep Neural Network** açısından da **LSTM'in** yanısıra **CNN-LSTM**, **Attention Network**
+> denemeleri yapılabilir.
+> 
+## 28.03.2021
+> LSTM modelinin kurulması, Cosine Similarity hesaplama gibi adımlar seçilen 111 kelime 
+> üzerinden test edilmiş oldu. Bundan sonraki aşamada Word2Vec modelin **2017 Aralık**
+> sonunda ulaştığı **5148** kelimesi kullanılarak benzer hesaplamalar üzerinde çalışıldı.
+> 5148 kelimenin tamamının eğitilmesi ve sonuçların alınması yaklaşık **20 saat** sürüyor.
+> Kelime sayımız 5148 olunca pair sayımız da **13248378((5148X5147)/2)** yüksek oluyor
+> beklendiği gibi. **Top 1000** içerisinde ortak kelime sayısı **8** oluyor. **Top 100000**
+> içerisinde ise bu sayı **8393** oluyor.
+> 
+> *13248378 çift içerisinden seçilen rastgele 1000 tanesinin en az 8 tanesinin en çok değişen 1000 çift arasında olma ihtimali nedir?*
+> **5.600025825700728e-14**
+## 23.03.2021
+> **2014 Aralık** ile **2017 ARalık** (Actual vs. Predict) arasındaki **Cosine Similarity** 
+> değişimlerini incelemeye çalıştım. Değişimin en fazla olduğu **Top N** kelimeler içerisinde 
+> Actual ve Predict arasındaki kesişimleri inceledim. Bu denemede Kelime sayımız **111** 
+> olduğu için normalde pair sayısı **6105((111X110)/2)** oluyor. Bir tane kelime **2014 Aralık Vocabulary'sinde** 
+> olmadığı  için pair sayımız **5995** oldu. **Top 100** içerisinde ortak kelime sayısı **9** oluyor.
+> Aşağıdaki gibi olasılık hesapları da yapılmış oldu.
+> 
+> *Yaptığın deney için 6105 çift içerisinden seçilen rastgele 10 tanesinin hiçbirinin en çok değişen 10 çiftten biri olmama ihtimali nedir?*
+> **0.9837282857823166**
+> 
+> *6105 çift içerisinden seçilen rastgele 100 tanesinin en az 9 tanesinin en çok değişen 100 çift arasında olma ihtimali nedir?*
+> **2.8236333183468444e-05**
+> 
+> **Cosine Similarity** değerlerimiz negatif de olabiliyor. Sanırım bu hali ile **Gephi'de** 
+> görüntüleme sıkıntıya yol açabiliyor. Ben de örnek olarak değerleri **0-100** arasında 
+> scale ettim. Bu şekilde Actual ve Predict için Gephi grafikleri elde edilebiliyor.
+> 
 ## 21.03.2021
 > **2014 Aralık** ayından **2017 Aralık** ayına (hem Actual hem de Predicted için)
 > **benzerliği** en çok değişen kelimeleri bulma ile ilgili çalışmalar yaptım.
