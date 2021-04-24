@@ -1,8 +1,33 @@
 Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler/notlar yer almaktadır.
 
 # Doktora Günlüğü (PhDiary)
+## 17.04.2021
+> Her **aydan** bir kelime seçerek **(bir önceki ayda olmayan ve en yüksek frekansa sahip)** kelime listesini
+> oluşturdum. **1991 Ocak** ile **2017 Aralık** aralığı **(324 ay)** için **323** kelime oldu. Sadece **1 ay** 
+> için yeni bir kelime bulunamadı. 
+> 
+> Denemeleri **UHEM'de** yaptım. Bu şekilde **324 ay** için Centrality hesapları **11 saat** sürdü. Centrality 
+> değerleri  üzerinden tüm kelimeler için **LSTM** hesaplaması da **40** dakika sürdü.  Oldukça iyi gözüküyor süreler. 
+> Centrality  eğitiminde feature sayımız **3** oluyor **(Degree, Betweenness, Closeness)**
+> 
+> **2014 Aralık ile 2017 Aralık** (Actual ve Predict) aralığındaki Centrality değişimlerini büyükten küçüğe doğru hesaplattım.
+
+## 12.04.2021
+> FastText ile de LSTM modeli eğittim ve **2014 Aralık** - **2017 Aralık** arasındaki değişimleri karşılaştırdım
+> **(Predict vs. Actual)**. Word2Vec'te olduğu gibi ilk **1000** içerisinde yine **8** tane eşleşme çıkıyor. Bu arada
+> **pairler** Word2Vec ile FastText için farklı çıkıyor.
+> 
+> **Centrality** ile ilgili de inceleme yapmaya çalıştım. **Python** tarafında **networkx** paketi ile oluşturulacak
+> **graf** üzerinden centrality hesaplamaları **(Degree, Betweeness, Closness, Eigenvector vb.)** rahat bir şekilde 
+> yapılabiliyor. Ben deneme amaçlı ufak bir örnek yaptım ve çalışıyor. Ay bazlı bizim vocabulary setimiz **(5148 kelime)** 
+> için graf oluşturmamız gerekiyor öncelikle. **Düğümlerimiz** kelimeler oluyor. **Edge** değerleri de **co-occurence** sayıları.
+> Buradaki sıkıntımız pair sayımız oldukça fazla **(~13 Milyon)**
+> 
+> Tek bir ay için pairler üzerinden Centrality hesapları **9.5** saat sürdü UHEM otrtamında. Oldukça fazla.
+
+
 ## 09.04.2021
-> **FastText** modeli ile **1991 Oca**k ile **2017 Aralık** ayları arasında model eğitimi
+> **FastText** modeli ile **1991 Ocak** ile **2017 Aralık** ayları arasında model eğitimi
 > **Word2Vec** modelindeki benzer **parametre ayarlamaları** ile tamamlandı. **FastText** modelinde de
 > **2017 Aralık** sonunda kelime sayısı **5148** olarak hesaplandı. Bir sonraki adımda **LSTM**
 > eğitimleri ile devam edileek.
