@@ -1,6 +1,41 @@
 Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler/notlar yer almaktadır.
 
 # Doktora Günlüğü (PhDiary)
+## 13.05.2021
+> **ProofReading** firmasından inceleme sonucu geldi. Yapılan düzeltmelerin üzerinden geçilerek 
+> derginin deadline olarak vermiş olduğu **17 Mayıs 2021** tarihi öncesinde sisteme makalenin
+> yeni hali yüklendi.
+
+## 05.05.2021
+> Okan Hoca ve Sercan Hoca ile toplantı yaptık. Uçtan uca bir **pipeline** denemesini
+> nihayete erdirmek için **323 kelimelik** set ile ilerlemeye karar verdik. Testlerde
+> şimdilik en iyi sonuç veren **"FastText, Single LSTM"** modeli ile tahmin edilen
+> sonuçlar kullanılmaya karar verildi. **Görselleme** anlamında karşılaştırma yapabilmek adına 
+> **Topic Modeling (LDA vb. gibi)** yöntemleri kullanılmaya karar verildi. 
+> **2014 Aralık**, **2017 Aralık Gerçek** ve **2017 Aralık Tahmin** senaryoları için Topic Modeling
+> uygulanacak ve buradaki benzerlikler ve değişimler gözlemlenecek. Bu üç durum için
+> kullanılacak olan yapı **FastText** word embedding **(300 boyutlu)** temsili üzeriden 
+> kelime çiftleri arasındaki **Cosine Distance/Cosine Similarity** şeklinde hesaplanacak.  
+
+## 03.05.2021
+> **323 kelimelik** (her ay için en yüksek frekansa sahip kelime) set üzerinden hem **Word2Vec**
+> hem de **FastText** word embedding temsilleri üzerinden çeşitli LSTM yöntemleri denendi.
+> Denenen LSTM yötemleri
+> * Single LSTM
+> * Stacked LSTM
+> * CNN LSTM
+> * Encoder-Decoder LSTM
+> * Bi-LSTM
+
+## 19.04.2021
+> **Expert Systems with Applications** dergisine düzeltilmiş olarak gönderdiğimiz yayın için
+> olumlu bir haber geldi. Resmi olarak kabul edilmeden önce **proofreading** yapılması istendi.
+> Makalemizi yazarken **Latex** arayüzü kullanılmıştı. Proofreading yapan firma **Word** formatı
+> bekliyor. Bu nedenle önce makaleyi Latex formatından Word formatına çevirdik. Bu çevirim
+> sırasında bazı problemler **(Tablo metinleri, Referanslar, satır sonu kelimeleri vb. gibi)**
+> yaşanabiliyor. Word hali üzerinden gerekli düzenlemeler yapıldı. Proofreading için
+> ilgili firmaya gönderildi.
+
 ## 17.04.2021
 > Her **aydan** bir kelime seçerek **(bir önceki ayda olmayan ve en yüksek frekansa sahip)** kelime listesini
 > oluşturdum. **1991 Ocak** ile **2017 Aralık** aralığı **(324 ay)** için **323** kelime oldu. Sadece **1 ay** 
