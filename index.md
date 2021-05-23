@@ -1,6 +1,23 @@
 Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler/notlar yer almaktadır.
 
 # Doktora Günlüğü (PhDiary)
+## 21.05.2021
+> Okan Hoca ve Sercan Hoca ile toplantı yaptık. Topic Modeling ile elde edilen sonuçlar
+> yorumlanmaya çalışıldı. Deneme sadece **323** kelime üzerinden yapıldığı için pek anlamlı
+> yorumlamalar yapılamadı. Tüm bu süreç içerisinde çalışmalarımızı seçtiğimiz alan olan 
+> **Biochemistry & Molecular Biology** üzerinden kurgulamıştık. Fakat bu alanda **domain
+> expertise** olarak yeterli donanıma sahip olamamamızın dezavantajını yaşayabileceğimizi
+> düşündük. Bundan dolayı **Web of Science** üzerinden yeni bir alan için veri seti oluşturmaya
+> karar verdik. Bu alan **Computer Science>Artificial Intelligence>Natural Language Processing>**
+> olabilir diye düşünüyoruz. 
+
+## 17.05.2021
+> **Topic Modeling** ile denemeler yapmaya çalıştım. Üç farklı yöntem denedim **LDA**, **NMF** ve **LSI**.
+> **Word Embedding** vektörleri üzerinden word pairler arasındaki benzerliği/yakınlığı ölçmek için de
+> **Cosine Distance** ve **Euclidean Distance** yöntemlerini kullandım. Bu Topic Modeling çalışmaları,
+> **Cosine Similarity** anlamında şimdilik en iyi sonucu veren **FastText + Single LSTM** modelinde
+> elde edilen vektörler üzerinde uygulandı. Görselleme aşamasında ise **pyLDAvis** kullanıldı.
+
 ## 13.05.2021
 > **ProofReading** firmasından inceleme sonucu geldi. Yapılan düzeltmelerin üzerinden geçilerek 
 > derginin deadline olarak vermiş olduğu **17 Mayıs 2021** tarihi öncesinde sisteme makalenin
