@@ -1,6 +1,37 @@
 Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler/notlar yer almaktadır.
 
 # Doktora Günlüğü (PhDiary)
+## 07.06.2021
+> Elde edilen yeni veri seti için güncellenmiş Python kodu uçtan uca çalıştırılmış
+> oldu. Bu deneme içerisinde aşağıdaki adımlar uygulanmış oldu:
+> * Her biri **500** adet kayıt içeren Excel dosyaları tek bir Excel içerisine toplandı
+> * **Ön İşleme** adımları (Küçük harflere çevirme, Rakamların kaldırılması, Stop Word kaldırılması, Lemmatize uygulanması) gerçekleştirildi
+> * Ay bazlı **Word2Vec** modellerinin güncellenerek eğitilmesi
+> * **2020 Aralık** ayına ait Word2Vec modeldeki kelimeler için **Single LSTM** modelleri çalıştırıldı
+> * **Topic Modeling** uygulandı 
+
+## 30.05.2021
+> Mevcut durumda yer alan ve birden fazla versiyonu bulunan **Python kod dosyaları**
+> tek bir Python kod dosyası içerisinde birleştirildi. Böylelikle kodun yeni
+> değişiklikler zarfında güncellenmesi ve yönetilmesi daha kolay hale geldi.
+
+## 28.05.2021
+> Belirlenen sorgu üzerinden daha önceden yazılmış ve **Selenium** üzerinden verileri
+> çekmek için kullanılan **Python** kod dosyası güncellendi. Geçen bu süre zarfında
+> **Google Chrome** tarayıcı için kullanılan **sürücü** dosyasında da güncelleme yapılması
+> gerekti, güncel versiyonu temin edildi. Tüm veriler yaklaşık **2-3** saat içerisinde 
+> otomatik olarak WoS sayfasından indirilip, kaydedildi.
+
+## 27.05.2021
+> Yeni karar verilen  **Computer Science>Artificial Intelligence>Natural Language Processing>**
+> alan için **Web of Science (WoS)** sayfsında kullanılmak üzere bir sorgu hazırlamaya çalıştık.
+> WoS içerisinde direkt olarak **"Natural Language Processing"** kriterini **WC (Web of Science Category)** ya da
+> **SU (Research Area)** etiketleri kapsamında kullanmak mümkün olmadı. O nedenle yardımcı olması açısından
+> **TS (Topic)** etkiketi altında çeşitli anahtar kelimeler **("Natural Language Processing", 
+> "Computational Linguistic", "Information Extraction" vb.)** kombine edilerek kullanıldı. Bununla birlikte
+> WC etiketi olarak ise **Computer Science, Artificial Intelligence** seçildi. Bu şekilde oluşturulan
+> sorgu sonucunda tüm tarih aralığı boyunca **23,715** makale/yayın sonucu elde edildi.
+
 ## 21.05.2021
 > Okan Hoca ve Sercan Hoca ile toplantı yaptık. Topic Modeling ile elde edilen sonuçlar
 > yorumlanmaya çalışıldı. Deneme sadece **323** kelime üzerinden yapıldığı için pek anlamlı
