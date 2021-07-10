@@ -1,6 +1,37 @@
 Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler/notlar yer almaktadır.
 
 # Doktora Günlüğü (PhDiary)
+## 06.07.2021
+> Üzerinde devam ettiğimiz çalışma ile ilgili **Stop Words** konusunda biraz daha detaylı bir
+> analiz yapmam gerekti. Ayrıca LSTM eğitimine dahil edilecek kelime setinin **2014 Aralık** 
+> olarak baz alınmasına karar verildi. Çünkü LSTM modelinde **timesteps** olarak **36 ay** seçilmişti.
+> Yeni durumda 2014 Aralık itibarı ile kelime sayımız şu şekilde oldu: **Unigram: 1576, Bigram: 158, Trigram: 16, Toplam: 1750**
+
+## 24.06.2021
+> **Tez-3 İlerleme Toplantısı** başarılı bir şekilde geçti. Jüri hocalarım bu dönem yapmış olduğum
+> çalışmaları ve ilerlememi olumlu olarak değerlendirdirler. Tabi, makalemizin kabul almış olması da
+> bu konuda önemli bir katkı yapmış oldu. 
+
+## 21.06.2021
+> Yeni veri seti üzerinde yapılan ilk çalışmada yoğunluklu olarak **Unigram** kelimeler yer almaktaydı.
+> Listemize **Bigram** ve **Trigram** kelimelerin de dahil olması için **threshold** üzerinde değişiklik yaptım. 
+> Yeni durumda **2020 Aralık** itibarı ile kelime sayımız şu şekilde oldu: **Unigram: 12557 Bigram:  265 Trigram:  23 Fourgram:  3 Total:  12848**
+> Bu kelimeler içerisinden **Unigram** olan ve **Noun** olmayan kelimeleri çıkardım. Bigram ve Trigram içerisinden de birkaç eleme yaptım.
+> Bu aşamadan sonra kelime sayımız **10496** oldu. Bu 10496 kelime üzerinden LSTM modeli çalıştırdım ve sonra da **Cosine Similarity**
+> üzerinden 3 durum için Topic Modeling figürleri çıkardım **(2017 Aralık, 2020 Aralık Actual, 2020 Aralık Predict)**. 
+> Tüm bu işlemler yaklaşık  **55 saat** sürdü. Topic Modeling için görselleme olarak [pyLDAvis](https://pyldavis.readthedocs.io/en/latest/readme.html) kullanıldı.
+> Öte yandan [VOSviewer](https://www.vosviewer.com/) aracı ile de görsellemeler yapılabiliyor gözüküyor.
+>
+> Ayrıca **24 Haziran Perşembe** günü gerçekleşecek olan **Tez-3 İlerleme Toplantısı** için bir sunum hazırladım.
+
+## 14.06.2021
+> Makalemiz derginin **183.** sayısında **30 Kasım 2021** itibarı ile yayınlanacak.
+> Belirli bir süre serbest olarak erişime [açıldı](https://www.sciencedirect.com/science/article/pii/S0957417421008125?dgcid=coauthor)
+
+## 12.06.2021
+> **Expert Systems with Applications** dergisi makalemizin **"Social media-based opinion retrieval for product analysis using multi-task deep neural networks"** 
+> resmi olarak kabul edildiğini bildirdi. Son gözden geçirmeler yapılıp onaya gönderildi.
+
 ## 07.06.2021
 > Elde edilen yeni veri seti için güncellenmiş Python kodu uçtan uca çalıştırılmış
 > oldu. Bu deneme içerisinde aşağıdaki adımlar uygulanmış oldu:
