@@ -1,6 +1,37 @@
 Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler/notlar yer almaktadır.
 
 # Doktora Günlüğü (PhDiary)
+## 06.09.2021
+> Gephi cluster oluşumlarını yorumlayabildim. Şu gibi alanlar çıkıyor gözükmekte:
+> **Language Translation, Speech Processing, Biomedical, Machine Learning Methods, Feature Engineering**
+>
+> Bunun yanında Sercan Hoca'nın istediği bir makale ile ilgili **review** yapmaya çalıştım.
+
+
+## 31.08.2021
+> Uzun bir aradan (Yaz Tatili, Bayran Tatili vb. gibi) sonra yeniden çalışmalara başladım.
+> Okan Hoca ile bir toplantı yaptık. Gephi'deki **kümeleme** ile ilgili yorumlama yapılabiliyor mu
+> bu konuyu araştırmaya karar verdik. Bunun en yanında en fazla değişim gösteren kelime çiftleri
+> ile ilgili bir şey elde edilebiliniyor mu bunu kontrol edeceğiz. 
+
+## 16.07.2021
+> Biraz daha **stop words** elemesi yaptım. Topic Modeling sonucu **seçilen kelimeleri** ve o kelimelerin Topic içerisindeki **ağırlıklarını**
+> kullanarak **Gephi** için inputlar hazırladım. Görselleştirme açısından daha rahat olması için **10 Topic 50'şer** kelime yerine **5 Topic 50'şer** 
+> kelime seçtim şimdilik.
+> 
+> Güzel bir şekilde, Gephi'de herhangi bir **ince ayar yapmadan** Topic Modeling sonuçlarını verdiğimde üç durum **(2017 DEC, 2020 DEC Actual, 2020 DEC Predict)** 
+> için de kendi otomatik olarak **5 Cluster** bulunabildi **Modularity** istatistiği koşturulduğunda. Clusterlar iç içe geçmiş de değil, birbirlerinden ayrı 
+> duruyorlar büyük oranda.
+
+## 13.07.2021
+> Okan Hoca ve Sercan Hoca ile toplantı yaptık. **Topic Modeling** ile elde edilen sonuçları
+> **plyDavis** üzerinden görüntülemenin çok fikir vermediği düşünüldü. Topic Modeling'de
+> çıkan sonuçların **Gephi** üzerinden görüntürlenmesi denenecek.
+
+## 09.07.2021
+> Kelime pairleri arasındaki Cosine Similarity değişimlerini **2017 DEC - 2020 DEC Actual** ve **2017 DEC - 2020 DEC Predict**
+> olarak analiz etmeye çalıştım.
+
 ## 06.07.2021
 > Üzerinde devam ettiğimiz çalışma ile ilgili **Stop Words** konusunda biraz daha detaylı bir
 > analiz yapmam gerekti. Ayrıca LSTM eğitimine dahil edilecek kelime setinin **2014 Aralık** 
