@@ -1,6 +1,23 @@
 Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler/notlar yer almaktadır.
 
 # Doktora Günlüğü (PhDiary)
+## 29.09.2021
+> Yeni bir toplantı yapıldı. Sonuçlar genel anlamda iyi ama yorumlama kısmına
+> bakılması gerekecek. Kurulan pipeline tekrar bir gözden geçirilecek. Makale 
+> iskeleti üzerinde biraz planlama yapıldı.
+
+## 22.09.2021
+> Bir önceki toplantıda kararlaştırılan fark matrisleri hesaplandı ve 
+> yeni görsellemeler üzerinde çalışıldı.
+
+
+## 14.09.2021
+> Olağan Doktora İlerleme toplantılarımıza yeniden başladık. 2020 DEC Actual ile 2017 DEC
+> benzerlik fark matrisi ile 2020 DEC Predict - 2017 DEC benzerlik fark matrisleri ile 
+> ilgili bir Topic Modeling hesaplanmasına karar verildi. Bu çalışmada kurulan pipeline
+> ortamı için bir sonraki alan "Computer Networks" olabilir diye planlandı. 
+
+
 ## 06.09.2021
 > Gephi cluster oluşumlarını yorumlayabildim. Şu gibi alanlar çıkıyor gözükmekte:
 > **Language Translation, Speech Processing, Biomedical, Machine Learning Methods, Feature Engineering**
