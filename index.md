@@ -1,6 +1,41 @@
 Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler/notlar yer almaktadır.
 
 # Doktora Günlüğü (PhDiary)
+## 27.10.2021
+> Hocalar ile yeni bir toplantı yapıldı. **Cluster** sayısının farklı versiyonlarının
+> denenmesine karar verildi. Yorumlama kısmı için üzerinde çalışılacak.
+
+## 22.10.2021
+> LDA kısmını tekrar detaylı bir inceledim. Bizim düşündüğümüz gibi dokuman bazında 
+> ortalama embedding vektör hesaplasak da LDA yaklaşımında işe yaramayacak gözüküyor. 
+> Çünkü bizim **Document - Term** matris sunmamızı bekliyor LDA. Oysa biz ancak **Document - Embedding** 
+> matris sunmuş oluyoruz. Öte yandan farklı **clustering** yöntemleri uygulayabilir miyim diye 
+> baktım düşündüğümüz yöntem için. NLTK'nın **KMeansClusterer** methodu ile Scikit Learn'un 
+> **KMeans** yöntemlerini şu şekilde kullanmaya çalıştım:
+> * 2017 DEC'e ait makaleleri buldum.
+> * Bu makaleler içerisindeki kelimelerin 300'luk **embedding** matrislerinin **ortalamasını** aldım. 
+> * Aynı şekilde 2020 DEC'e ait makaleleri buldum. 
+> * Bu makaleler içerisindeki kelimelerin 300'luk embedding matrislerinin ortalamasını **2 (2020 DEC Actual ve 2020 DEC Precit)** ayrı şekilde aldım
+> * Bu hazırlanan dataları **KMeansClusterer** ve **KMeans** yöntemlerine verdim. 
+> * 5 Cluster bulmasını istedim. 
+> * Bulunan clusterların **centroid** noktalarına embedding matrisi olarak en yakın olan **top kelimeleri (50 tane)** belirledim.
+> * Buradan çıkan kelimeler için hesaplanan **cosine similarity** matrisleri **Gephi'ye** input olarak verildi 
+
+
+
+## 15.10.2021
+> Hocalar ile yeni bir toplantı yapıldı. **LDA** kısmı için **2017 DEC** ve **2020 DEC**
+> üzerinden **embedding matris ortalamasının** giriş olarak verilmesi tartışıldı.
+
+
+## 12.10.2021
+> **Pipeline** gözden geçirildi ve adımlar/işlemler hocalar ile paylaşıldı.
+> Sonuçlar **makale formatı** içerisine eklenerek yorumlanmaya çalışıldı.
+> Şimdilik **5 cluster** üzerinden bir tasarım yapıldı. Öte yandan genel
+> **framework** şeklinin yanında **Embedding** ve **LSTM** tarafları için ayrı bir
+> görsel hazırlandı.
+
+
 ## 29.09.2021
 > Yeni bir toplantı yapıldı. Sonuçlar genel anlamda iyi ama yorumlama kısmına
 > bakılması gerekecek. Kurulan pipeline tekrar bir gözden geçirilecek. Makale 
