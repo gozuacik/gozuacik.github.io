@@ -1,61 +1,68 @@
 Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler/notlar yer almaktadır.
 
 # Doktora Günlüğü (PhDiary)
+## 24.01.2022
+> Son toplantımızda karar verildiği gibi Vocabulary içerisinde kelime seçimlerini **N-Gram** spesifik **Median** değerlerine göre yaptım.
+> Bu durumda oluşan kelime dağılımı aşağıdaki gibi oluyor.
+> * 1-Gram: 1385
+> * 2-Gram: 960
+> * 3-Gram: 132
+> * 4-Gram: 8
+> * 5-Gram: 1
+> * Toplam: 2486
+
 ## 14.01.2022
-> Hocalar ile yeni bir toplantı yapıldı. Daha önce elde edilen 4350 kelime içerisinden
-> yapılacak seçimlerde N-Gram bazında Median değerine göre threshold belirlenmesine
-> karar verildi. Cosine Similarity matris hesaplanmasında bu N-Gram bazlı Median
+> Hocalar ile yeni bir toplantı yapıldı. Daha önce elde edilen **4350** kelime içerisinden
+> yapılacak seçimlerde **N-Gram** bazında **Median** değerine göre **threshold** belirlenmesine
+> karar verildi. **Cosine Similarity** matris hesaplanmasında bu N-Gram bazlı Median
 > thresholdunun kullanılması da gündeme getirildi. LDA uygulamadan direkt olarak
-> Cosine Similarity matrisinin Gephi'ye verilmesi de değerlendirilecek.
+> Cosine Similarity matrisinin **Gephi'ye** verilmesi de değerlendirilecek.
 
 ## 09.01.2022
-> LDA sonuçlarının Gephi'de görselleştirilmesi ile ilgili 37 farklı durum denendi ve danışman
+> LDA sonuçlarının Gephi'de görselleştirilmesi ile ilgili **37** farklı durum denendi ve danışman
 > hocalar ile sonuçlar paylaşıldı.
 
 ## 07.01.2022
-> Tez-4 İlerleme Raporu Bahçeşehir Üniversitesi Lisansüstü Eğitim Enstitüsü'ne, Danışman Hocalara
+> Tez-4 İlerleme Raporu **Bahçeşehir Üniversitesi Lisansüstü Eğitim Enstitüsü'ne**, Danışman Hocalara
 > ve Jüri üyelerine e-posta olarak gönderildi.
 
 ## 04.01.2022
-> 2021 - 2022 Güz Dönemi için Tez-4 İlerleme Raporu hazırlandı ve danışman hocalara incelemeleri için gönderildi.
+> **2021 - 2022 Güz Dönemi** için **Tez-4 İlerleme Raporu** hazırlandı ve danışman hocalara incelemeleri için gönderildi.
 
 ## 24.12.2021
-> Yeni veri setimiz üzerinde yaptığım çalışmaları ilk planda tamamladım. 
-> Bu arada geçmiş çalışmalarımızda şöyle bir açık nokta fark ettim. Word2Vec eğitimlerinde 
-> o ay için bizim Vocabulary içerisine dahil olan ama kümülatif anlamda toplam frekansı 
-> az olan bir kelime için de cosine similarity'nin yüksek çıktığı kelimeler olabiliyormuş. 
+> Yeni veri setimiz üzerinde yaptığım çalışmalar ilk planda tamamlandı. 
+> Bu arada geçmiş çalışmalarımızda şöyle bir **açık nokta** fark ettim. Word2Vec eğitimlerinde 
+> o ay için bizim Vocabulary içerisine dahil olan ama **kümülatif anlamda toplam frekansı 
+> az olan** bir kelime için de cosine similarity'nin yüksek çıktığı kelimeler olabiliyormuş. 
 > Bu da en sonda yaptığımız LDA çalışmalarında frekansı çok az da olsa bir şekilde kümelere 
 > girmeyi başarabiliyordu diye yorumladım. Yeni çalışmada bunun önüne geçmeye de çalıştım.
 > Çeşitli istatistiki bilgiler de aşağıdaki gibi:
-> * Word2Vec eğitiminde min_count için yine o ay Trigram olarak en yüksek frekansın yarısından bir fazlası seçildi.
-> * Bunun yanında Unigram'ların daha az oranda seçilmesini sağlamak için bu min_count'un 3 katından fazla frekansa 
+> * Word2Vec eğitiminde **min_count** için yine o ay **Trigram** olarak en yüksek frekansın **yarısından bir fazlası** seçildi.
+> * Bunun yanında **Unigram'ların** daha az oranda seçilmesini sağlamak için bu **min_count'un 3 katından fazla** frekansa 
 > sahip olması gibi bir ölçüt belirledim.  
-> * Bigram ve Trigram kelimelerin seçilme sayısını artırmak için ise phrase_threshold=1.0 oranı seçildi.
-> * Bigram ve Trigram kelimelerin seçilme sayısını artırmak için ise phrase_threshold=1.0
-> * Word2Vec eğitimlerini tamamladığımda 2015 DEC itibarı ile kelime sayısı şu şekilde oldu
+> * **Bigram ve Trigram** kelimelerin seçilme sayısını artırmak için ise **phrase_threshold=1.0** oranı seçildi.
+> * Word2Vec eğitimlerini tamamladığımda **2015 DEC** itibarı ile kelime sayısı şu şekilde oldu
 > * Toplam Kelime Sayısı: 4350 Unigram: 2653 Bigram: 1465 Trigram: 213 Fourgram: 16 Fivegram: 3
-> * Bu kelime listesinden LSTM eğitiminde kullanılmak üzere frekansı 36'dan büyük olanları seçtim.
+> * Bu kelime listesinden LSTM eğitiminde kullanılmak üzere frekansı **36'dan** büyük olanları seçtim.
 > * Toplam Kelime Sayısı: 935 Unigram: 848 Bigram: 78 Trigram: 9
 > * Bu 935 kelime üzerinden gerçekleştirilen eğitim sonrası LDA uygulaması yaptım GridSearch kullanarak (n_components': [3,4,5,6,7,8,9,10], 'learning_decay': [0.5,0.7,0.9]). 
 
 ## 22.11.2021
-> Danışman hocalarımla birlikte bir query üzerinde karar verildi. Yaklaşık 50.000
+> Danışman hocalarımla birlikte bir query üzerinde karar verildi. Yaklaşık **50.000**
 > makale sonucu yer alıyor. Yeni veri seti üzerinde çalışmalara başlandı.
 
 ## 19.11.2021
-> Web of Science içerisinden yine NLP ile ilgili yeni bir veri seti oluşturulmasına
-> karar verildi. Sorgulamada kullanılacak kelimelerin seçimi için literatür taraması
+> Web of Science içerisinden yine NLP ile ilgili **yeni bir veri seti** oluşturulmasına
+> karar verildi. Sorgulamada kullanılacak kelimelerin seçimi için **literatür taraması**
 > yapılacak ve çeşitli query biçimleri oluşturulacak.
 
 
 ## 10.11.2021
-> Topic sayısı 5,6,7,8,9,10 ve Word sayısı 10,20,30,40,50 gibi denemeler yaptım
+> Topic sayısı **5,6,7,8,9,10** ve Word sayısı **10,20,30,40,50** gibi denemeler yaptım
 > denenmesine karar verildi. Yorumlama kısmı için üzerinde çalışılacak.
 >
 > 2017 DEC ve 2020 DEC için TF-IDF alıp burada bizim kelime listemizdekilerden 
 > yer alanları bulup ondan bir cosine similarity matris yaptım.
-
-
 
 ## 27.10.2021
 > Hocalar ile yeni bir toplantı yapıldı. **Cluster** sayısının farklı versiyonlarının
