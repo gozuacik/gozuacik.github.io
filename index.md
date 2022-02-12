@@ -1,6 +1,18 @@
 Bu web sayfasında Doktora çalışmam ile ilgili günlük niteliğinde bilgiler/notlar yer almaktadır.
 
 # Doktora Günlüğü (PhDiary)
+## 07.02.2022
+> **Gephi** görselleştirmeleri üzerinden tekrar geçildi. 2018 Aralık Gerçek,
+> 2021 Aralık Gerçek ve 2021 Aralık Tahmin görsellemeleri oluşturuldu.
+> 2021 Aralık Gerçek setinde belirlenen **19** kümenin **13** tanesi 2021 Aralık
+> Tahmim setinde de elde edildi. 2018 Aralık Gerçek - 2021 Aralık Gerçek
+> aralığında değişim gösteren **8** kümenin **2** tanesi tahmin edilmiş oldu.
+
+## 02.02.2022
+> **Doktora Tez İlerleme** sunumu online olarak yapıldı. Jüri üyelerinin
+> yorumları ve değerlendirmeleri **olumlu** oldu. Bir aksilik olmazsa bir sonraki
+> dönem tez yazımı ve savunma olabilir gözükmekte.
+
 ## 24.01.2022
 > Son toplantımızda karar verildiği gibi Vocabulary içerisinde kelime seçimlerini **N-Gram** spesifik **Median** değerlerine göre yaptım.
 > Bu durumda oluşan kelime dağılımı aşağıdaki gibi oluyor.
